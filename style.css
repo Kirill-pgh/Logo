@@ -48,6 +48,14 @@ img{
 	align-items: center;
 }
 
+
+.header_header{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 392px;
+	margin-right: 482px;
+}
+
 .header_logo{
 	display: flex;
 }
@@ -66,7 +74,7 @@ img{
 }
 
 
-.header_location-pic{
+.header_location-link{
 	width: 20px;
     height: 20px;
     flex-shrink: 0;
@@ -74,15 +82,30 @@ img{
     height: 20px;
     top: 15px;
     left: 504px;
-
+    margin-left: 21px;
 }
 
+
+/*.header_location-pic{
+	width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 504px;
+    margin-left: 21px;
+
+}
+*/
 .header_location-city{
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
+    width:110px;
+    margin-left: 3px;
 }
 
 
@@ -92,7 +115,6 @@ img{
     line-height: 21px;
     color: var(--2, #868686);
 }
-
 
 
 .header_contact{
