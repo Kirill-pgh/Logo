@@ -28,7 +28,7 @@ img{
 
 
 .wrapper{
-	max-width: 1920px;
+	max-width: 1140px;
 	margin: 0 auto;
 }
 
@@ -52,8 +52,6 @@ img{
 .header_header{
 	display: flex;
 	justify-content: flex-start;
-	margin-left: 392px;
-	margin-right: 482px;
 }
 
 .header_logo{
@@ -65,8 +63,6 @@ img{
 .header_location{
 	display: flex;
 	justify-content:space-between;
-	width: 133px;
-    height:38px;
 	top: 15px;
 	left: 504px;
 	text-align: center;
@@ -156,7 +152,7 @@ img{
 /*Header_nav style start*/
 
 .header_nav{
- 	width: 1920px;
+ 	width: 1140px;
     height: 43px;
     top: 67px;
     background: #1FA181;
@@ -166,7 +162,6 @@ img{
 .header_list{
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 100px;
 }
 
 
@@ -203,7 +198,7 @@ img{
 /*Intro style start*/
 
 .intro{
-	width: 1920px;
+	width: 1140px;
     height: 533px;
     background: #F8FBFA;
  }
