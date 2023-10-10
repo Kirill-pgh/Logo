@@ -46,6 +46,8 @@ img{
 	display: flex;
 	justify-content: space-between; 
 	align-items: center;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 
@@ -56,6 +58,8 @@ img{
 
 .header_logo{
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -104,8 +108,16 @@ img{
     color: var(--2, #868686);
 }
 
+
+.header_contact_record{
+	display: flex;
+	margin-left: 487px;
+}
+
 .header_header-2{
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -116,6 +128,7 @@ img{
 
 .header_contact-nomer{
 	display: flex;
+	margin-left: 9px;
 }
 
 
@@ -124,6 +137,7 @@ img{
 	display: flex;
 	border-radius: 50px;
     background: #0DBC91;
+	margin-left: 35px;
 }
 
 
@@ -135,28 +149,26 @@ img{
     padding-top: 11px;
     padding-bottom: 11px;
     padding-right: 24px;
-
 }
-
 
 /*Header style end*/
 
 
 /*Header_nav style start*/
-
 .header_nav{
+	display: flex;
     background: #1FA181;
 }
 
 
 .header_list{
-	display: flex;
 	flex-wrap: wrap;
 }
 
 
 .header_item{
 	margin-right: 30px;
+	display: flex;
 }
 
 .header_item:last-child{
@@ -190,6 +202,10 @@ img{
 .intro{
     background: #F8FBFA;
  }
+
+.wrapper_intro{
+	height: 100px;
+}
 
 
 .intro_title{
